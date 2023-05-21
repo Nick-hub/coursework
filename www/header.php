@@ -3,7 +3,8 @@
 /**
  * @var PDO $conn The database connection
  */
-require_once("C:/php.project/db_connection.php");
+$curr_dir = __DIR__;
+require_once("$curr_dir/../db_connection.php");
 session_start();
 if (isset($_SESSION['user_id'])) {
     $id = $_SESSION['user_id'];
