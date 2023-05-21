@@ -1,0 +1,26 @@
+.logo {
+  font-size: 60px;
+  font-weight: 800;
+  text-decoration: underline;
+  color: red;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  color-scheme: dark;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 85.7%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
